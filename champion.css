@@ -1,0 +1,171 @@
+.back-btn{
+            display:inline-block;
+            padding: 10px 20px;
+            background-color: #111;
+            color: #00cfbc;
+            text-decoration: none;
+            border:2px solid #00cfbc;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-bottom: 20px;}
+            .back-btn:hover{
+                background-color: #00cfbc ;
+                color: #fff;
+                box-shadow: 0 0 15px #00cfbc;
+                        }
+        
+        body{
+            background-color: black;
+            font-family: 'Source Sans pro',Arial,sans-serif;
+            font-size: 16px;
+            padding: 1em;
+            color:#cebb0ed2;
+        
+        }
+        h1{
+            color:#b6ac1fe7;
+        }
+        h4{
+            color:rgba(197, 185, 18, 0.911);
+        }
+
+
+        .card{
+            width:280px;
+            height:200px;
+            overflow:hidden;
+            border-radius:8px;
+            transform:box-shadow 0.3s;
+            display:inline-block;
+            margin:15px;
+            vertical-align: top;
+            text-align: center;
+        }
+        .image-box{
+            width:100%;
+            height: 160px;
+            overflow:hidden;
+            border-radius: 10px;
+        }
+        .image-box img{
+            width: 100%;
+            height:100%;
+            object-fit:cover;
+            transition: transform 0.4s ease;
+        }
+            .image-container{
+            display:flex;
+            flex-wrap: wrap;
+            gap:20px;
+            padding:10px
+        }
+        .card:hover{
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5) ;
+            cursor: pointer;
+        }
+        .card:hover .image-box img{
+            transform:scale(1.1);
+        }
+        .card img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .card:hover img{
+            transform: scale(1.1);
+        }
+        .card p{
+            color:#cca352;
+            margin-top:10px;
+            font-size:14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display:block;
+        }
+       card{
+            flex: 0 0 300px;
+        }
+        .img{
+            width:100%;
+            height:auto;
+            object-fit:cover;
+            image-rendering:auto;
+        }
+        .hero-container{
+    
+
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow:hidden;}
+            .hero-container::after{
+                content: "";
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height: 100%;
+                background:rgba(0,0,0,0.2);
+                z-index:2;
+            }
+            .scroll-text{
+                color: white;
+                bottom:50px;
+                position: absolute;
+                animation: blink 2s infinite;
+
+            }
+            @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+            }
+            
+        .hero-video{
+            width: 100%;
+            height:100%;
+            object-fit:cover;
+            object-position: center 20%;
+
+        }
+        .hero-text{
+            z-index:2;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            color:white;
+            text-align: center;
+        }
+        .history-link-container{
+            text-align: center;
+            margin:50px 0;
+        }
+        .history-btn{
+            padding: 15px 40px;
+            background-color: transparent;
+            color:#cca352;
+            border:2px solid #cca352;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+        }
+        .history-btn:hover{
+            background-color: #cca352;
+            color:black;
+            box-shadow: 0 0 15px rgba(204,163,82,0.6);
+        }
+       
+      
+        
+  
+
+        
+        

@@ -1,0 +1,38 @@
+         
+          body{
+            background-color: black;
+            font-family: 'Source Sans pro',Arial,sans-serif;
+            font-size: 16px;
+            padding: 1em;
+            color:#cebb0ed2;}
+        
+         
+         
+         .region-container{
+                display: flex;
+                
+            
+
+        
+            }
+            .region p{
+                margin-top: 15px;
+                font-size: 14px;
+                display: block;
+                color: rgb(223, 167, 15);
+                margin-left: 15px;
+                text-transform: uppercase;
+                }
+            .region img{
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+                margin: 15px;
+                vertical-align: top;
+
+             }
+
+             .card:hover{
+              transform: scale(1.1);
+              
+             }

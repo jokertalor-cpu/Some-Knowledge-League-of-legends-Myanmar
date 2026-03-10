@@ -54,6 +54,12 @@
         League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. 
         League of Legends &copy; Riot Games, Inc.
     </p>
-</footer>
+</footer><script>
+const menuBtn = document.querySelector('#mobile-menu');
+const navMenu = document.querySelector('.nav-menu');
+
+menuBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});</script>
 </body>
 </html>

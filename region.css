@@ -12,10 +12,9 @@
          
          .region-container{
                 display: flex;
-                
-            
-
-        
+                flex-wrap: wrap;
+                gap:5px;
+                padding:10px;
             }
             .region p{
                 margin-top: 15px;

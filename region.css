@@ -1,10 +1,12 @@
          
           body{
-            background-color: black;
+            background-color: black; 
             font-family: 'Source Sans pro',Arial,sans-serif;
             font-size: 16px;
             padding: 1em;
-            color:#cebb0ed2;}
+            color:#cebb0ed2;
+        
+        }
         
          
          
@@ -36,3 +38,31 @@
               transform: scale(1.1);
               
              }
+             .void-container{
+             width: auto;
+    height: auto;
+    min-height: 88vh;
+    min-width: 100vw;
+    position: absolute;
+    
+    left: 100%;
+    transform: translate(-100%, -0.138889%);
+    z-index: 1;
+            }
+            .back-btn{
+            display:inline-block;
+            padding: 10px 20px;
+            background-color: #111;
+            color: #00cfbc;
+            text-decoration: none;
+            border:2px solid #00cfbc;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-bottom: 20px;}
+            .back-btn:hover{
+                background-color: #00cfbc ;
+                color: #fff;
+                box-shadow: 0 0 15px #00cfbc;
+                        }
+        
